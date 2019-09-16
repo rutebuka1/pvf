@@ -3,7 +3,7 @@
 /*
  * Squelette : ../plugins-dist/organiseur/prive/squelettes/inclure/organiseur-rappels.html
  * Date :      Mon, 08 Apr 2019 18:58:26 GMT
- * Compile :   Mon, 16 Sep 2019 10:25:26 GMT
+ * Compile :   Mon, 16 Sep 2019 12:16:23 GMT
  * Boucles :   _annonces, _pb, _rv
  */ 
 
@@ -205,7 +205,7 @@ recuperer_fond( 'prive/squelettes/inclure/organiseur-message' , array('id_messag
 
 //
 // Fonction principale du squelette ../plugins-dist/organiseur/prive/squelettes/inclure/organiseur-rappels.html
-// Temps de compilation total: 1.472 ms
+// Temps de compilation total: 9.140 ms
 //
 
 function html_8ceba977d4dd16a20e3915e7e9f49f5f($Cache, $Pile, $doublons = array(), $Numrows = array(), $SP = 0) {

@@ -3,7 +3,7 @@
 /*
  * Squelette : ../plugins-dist/breves/prive/objets/liste/breves.html
  * Date :      Mon, 08 Apr 2019 18:58:20 GMT
- * Compile :   Mon, 16 Sep 2019 10:25:26 GMT
+ * Compile :   Mon, 16 Sep 2019 12:16:23 GMT
  * Boucles :   _liste_bre
  */ 
 
@@ -181,7 +181,7 @@ invalideur_session($Cache, (((function_exists("autoriser")||include_spip("inc/au
 
 //
 // Fonction principale du squelette ../plugins-dist/breves/prive/objets/liste/breves.html
-// Temps de compilation total: 1.128 ms
+// Temps de compilation total: 1.017 ms
 //
 
 function html_7e551e5c513306fa773b0ad28bf2a058($Cache, $Pile, $doublons = array(), $Numrows = array(), $SP = 0) {

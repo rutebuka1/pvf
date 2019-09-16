@@ -3,12 +3,12 @@
 /*
  * Squelette : ../plugins-dist/porte_plume/css/barre_outils_icones.css.html
  * Date :      Mon, 08 Apr 2019 18:58:28 GMT
- * Compile :   Mon, 16 Sep 2019 10:25:24 GMT
+ * Compile :   Mon, 16 Sep 2019 12:16:22 GMT
  * Boucles :   
  */ 
 //
 // Fonction principale du squelette ../plugins-dist/porte_plume/css/barre_outils_icones.css.html
-// Temps de compilation total: 0.158 ms
+// Temps de compilation total: 0.097 ms
 //
 
 function html_072d165a8a12fb06cfab0cd6f6c21784($Cache, $Pile, $doublons = array(), $Numrows = array(), $SP = 0) {

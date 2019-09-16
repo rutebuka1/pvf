@@ -2,13 +2,13 @@
 
 /*
  * Squelette : squelettes/header.html
- * Date :      Sun, 15 Sep 2019 16:36:25 GMT
- * Compile :   Mon, 16 Sep 2019 10:24:59 GMT
+ * Date :      Mon, 16 Sep 2019 11:53:55 GMT
+ * Compile :   Mon, 16 Sep 2019 12:14:11 GMT
  * Boucles :   
  */ 
 //
 // Fonction principale du squelette squelettes/header.html
-// Temps de compilation total: 0.832 ms
+// Temps de compilation total: 0.275 ms
 //
 
 function html_80f428b735eb958cf1c478827c0b168a($Cache, $Pile, $doublons = array(), $Numrows = array(), $SP = 0) {
@@ -92,16 +92,36 @@ function html_80f428b735eb958cf1c478827c0b168a($Cache, $Pile, $doublons = array(
 							<li class="menu-active"><a href="' .
 spip_htmlspecialchars(sinon($GLOBALS['meta']['adresse_site'],'.')) .
 '">Ahabanza</a></li>
-							<li><a href="?page=imyidagaduro">Imyidagaduro</a></li>
-							<li><a href="#">Imikino</a></li>
-							<li><a href="#">Ikoranabuhanga</a></li>
-							<li><a href="#">Ubukungu</a></li>
-							<li><a href="#">Ubuzima</a></li>
-							<li><a href="#">Urukundo</a></li>
-							<li><a href="#">Iyobokamana</a></li>
-							<li><a href="#">Cinema</a></li>
-							<li><a href="#">Uburezi</a></li>
-							<li><a href="#">Umuco</a></li>
+							<li><a href="' .
+vider_url(urlencode_1738(generer_url_entite('1', 'rubrique', '', '', true))) .
+'">Imyidagaduro</a></li>
+							<li><a href="' .
+vider_url(urlencode_1738(generer_url_entite('2', 'rubrique', '', '', true))) .
+'">Imikino</a></li>
+							<li><a href="' .
+vider_url(urlencode_1738(generer_url_entite('3', 'rubrique', '', '', true))) .
+'">Ikoranabuhanga</a></li>
+							<li><a href="' .
+vider_url(urlencode_1738(generer_url_entite('4', 'rubrique', '', '', true))) .
+'">Ubukungu</a></li>
+							<li><a href="' .
+vider_url(urlencode_1738(generer_url_entite('5', 'rubrique', '', '', true))) .
+'">Ubuzima</a></li>
+							<li><a href="' .
+vider_url(urlencode_1738(generer_url_entite('6', 'rubrique', '', '', true))) .
+'">Urukundo</a></li>
+							<li><a href="' .
+vider_url(urlencode_1738(generer_url_entite('7', 'rubrique', '', '', true))) .
+'">Iyobokamana</a></li>
+							<li><a href="' .
+vider_url(urlencode_1738(generer_url_entite('8', 'rubrique', '', '', true))) .
+'">Cinema</a></li>
+							<li><a href="' .
+vider_url(urlencode_1738(generer_url_entite('9', 'rubrique', '', '', true))) .
+'">Uburezi</a></li>
+							<li><a href="' .
+vider_url(urlencode_1738(generer_url_entite('10', 'rubrique', '', '', true))) .
+'">Umuco</a></li>
 						
 					</ul>
 					</nav><!-- #nav-menu-container -->

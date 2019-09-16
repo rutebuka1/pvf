@@ -3,12 +3,12 @@
 /*
  * Squelette : ../prive/objets/editer/traductions.html
  * Date :      Mon, 08 Apr 2019 18:48:14 GMT
- * Compile :   Mon, 16 Sep 2019 10:26:31 GMT
+ * Compile :   Mon, 16 Sep 2019 12:17:12 GMT
  * Boucles :   
  */ 
 //
 // Fonction principale du squelette ../prive/objets/editer/traductions.html
-// Temps de compilation total: 0.638 ms
+// Temps de compilation total: 0.321 ms
 //
 
 function html_484d5e2cfd156e7d79246e4b2698af7b($Cache, $Pile, $doublons = array(), $Numrows = array(), $SP = 0) {

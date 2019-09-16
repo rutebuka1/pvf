@@ -3,12 +3,12 @@
 /*
  * Squelette : ../plugins-dist/breves/prive/style_prive_plugin_breves.html
  * Date :      Mon, 08 Apr 2019 18:58:20 GMT
- * Compile :   Mon, 16 Sep 2019 10:25:25 GMT
+ * Compile :   Mon, 16 Sep 2019 12:16:22 GMT
  * Boucles :   
  */ 
 //
 // Fonction principale du squelette ../plugins-dist/breves/prive/style_prive_plugin_breves.html
-// Temps de compilation total: 0.417 ms
+// Temps de compilation total: 0.187 ms
 //
 
 function html_40de9e3205c0543b0b58cc469f6040dd($Cache, $Pile, $doublons = array(), $Numrows = array(), $SP = 0) {

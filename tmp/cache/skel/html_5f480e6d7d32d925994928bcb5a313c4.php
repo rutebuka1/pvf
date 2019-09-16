@@ -3,7 +3,7 @@
 /*
  * Squelette : ../plugins-dist/mots/prive/style_prive_plugin_mots.html
  * Date :      Mon, 08 Apr 2019 18:58:26 GMT
- * Compile :   Mon, 16 Sep 2019 10:25:25 GMT
+ * Compile :   Mon, 16 Sep 2019 12:16:22 GMT
  * Boucles :   
  */ 
 //

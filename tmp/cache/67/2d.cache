@@ -1,9 +1,36 @@
-a:2:{s:9:"nom_cache";s:38:"672dfdff413a54368c741c4192a6e018.cache";s:6:"valeur";a:12:{s:9:"squelette";s:37:"html_e33636cc23758c210fbbc06a03090832";s:6:"source";s:37:"../prive/squelettes/inclure/pied.html";s:11:"process_ins";s:4:"html";s:11:"invalideurs";a:2:{s:5:"cache";s:38:"113bf1e78fb7c1ea52acbd9381f8124b.cache";s:7:"session";s:8:"8cdead8d";}s:7:"entetes";a:1:{s:12:"X-Spip-Cache";s:5:"86400";}s:5:"duree";i:86400;s:5:"texte";s:600:"<div id='copyright'>
-	
-	<b>SPIP 3.2.4 [<a href='http://core.spip.net/projects/spip/repository/revisions/24285' target="_blank" rel="noopener noreferrer">24285</a>]</b>  is free software distributed <a href='http://localhost/pvf/ecrire/?exec=aide&amp;aide=licence&amp;var_lang=en' class="aide popin">under the GPL license</a>.<br />+ safety screen 1.3.11
-	
-	<p>For more visit <a href="https://www.spip.net/en">https://www.spip.net/en</a>.</p>
-</div>
-<noscript>
-<div style='display:none;'><img src='http://localhost/pvf/ecrire/?exec=test_ajax&amp;js=-1' width='1' height='1' alt='' /></div></noscript>
-";s:5:"notes";s:0:"";s:8:"contexte";a:5:{s:4:"lang";s:2:"en";s:4:"date";s:19:"2019-09-16 06:26:31";s:12:"date_default";b:1;s:10:"date_redac";s:19:"2019-09-16 06:26:31";s:18:"date_redac_default";b:1;}s:12:"lastmodified";i:1568629590;s:2:"gz";b:0;s:3:"sig";i:2748707078;}}
+a:2:{s:9:"nom_cache";s:38:"672d74a4d63eee4012f05e7eb0560e85.cache";s:6:"valeur";a:12:{s:9:"squelette";s:37:"html_e8935a15c55697742113b7458b9e8b34";s:6:"source";s:58:"../plugins-dist/sites/prive/style_prive_plugin_syndic.html";s:11:"process_ins";s:4:"html";s:11:"invalideurs";a:1:{s:5:"cache";s:38:"672d74a4d63eee4012f05e7eb0560e85.cache";}s:7:"entetes";a:5:{s:12:"X-Spip-Cache";s:6:"360000";s:13:"Cache-Control";s:14:"max-age=360000";s:15:"X-Spip-Statique";s:3:"oui";s:12:"Content-Type";s:29:"text/css; charset=iso-8859-15";s:4:"Vary";s:15:"Accept-Encoding";}s:5:"duree";i:360000;s:5:"texte";s:2363:"
+.liste-objets.syndic_articles tr td { vertical-align: top; }
+.liste-objets.syndic_articles .titre a { display: inline; }
+.liste-objets.syndic_articles .action button {vertical-align: top;}
+
+.liste-objets.syndic_articles tr > .action {width: 50px;}
+.liste-objets.syndic_articles td .tags,
+.liste-objets.syndic_articles td .source {display:block;}
+.liste-objets.syndic_articles td .tags a {color:#666;}
+
+.onglets_simple ul.statut_syndic_articles li.publie strong,.onglets_simple ul.statut_syndic_articles li.publie a {background-image:url(../plugins-dist/sites/prive/themes/spip/images/syndic-statut-publie-24.png);padding-left:27px;}
+.onglets_simple ul.statut_syndic_articles li.off strong,.onglets_simple ul.statut_syndic_articles li.off a {background-image:url(../plugins-dist/sites/prive/themes/spip/images/syndic-statut-off-24.png);padding-left:27px;}
+.onglets_simple ul.statut_syndic_articles li.refuse strong,.onglets_simple ul.statut_syndic_articles li.refuse a {background-image:url(../plugins-dist/sites/prive/themes/spip/images/syndic-statut-poubelle-24.png);padding-left:27px;}
+.onglets_simple ul.statut_syndic_articles li.dispo strong,.onglets_simple ul.statut_syndic_articles li.dispo a {background-image:url(../plugins-dist/sites/prive/themes/spip/images/syndic-statut-dispo-24.png);padding-left:27px;}
+
+
+.controler_syndication .filtres.second {font-size:0.9em;border:0;padding-left:0;}
+.controler_syndication .filtres.second ul li strong,.controler_syndication .filtres.second ul li a {margin-left:0px;margin-right:5px;margin-bottom:5px;}
+.controler_syndication .filtres.second ul li strong {border:1px solid #8F8FBD;}
+.controler_syndication .filtres.second ul li strong,.controler_syndication .filtres.second ul li a:hover {background-color:#fff;}
+
+.source {font-size:12px;font-weight:bold;background:#fff;padding:5px;border:1px solid #8F8FBD;}
+.source .actions {font-weight:normal;}
+.annule_filtre {float:right;}
+
+
+/**
+ * formulaire_editer_site
+ */
+
+.formulaire_editer_site.withlogo .editer_nom_site,.formulaire_editer_site.withlogo .editer_url_site {padding-right:200px;}
+.formulaire_editer_site .previsu_logo_site{height:1px;text-align: right;}
+
+/* Inscription du flux RSS */
+.formulaire_editer_site .editer_referencement_automatise fieldset,.formulaire_editer_site .editer_referencement_automatise .boutons{background-color:#E9E9E9;border:0;}
+";s:5:"notes";s:0:"";s:8:"contexte";a:25:{s:1:"v";s:5:"22653";s:1:"p";s:4:"1656";s:6:"themes";s:4:"spip";s:3:"ltr";s:4:"left";s:4:"md5b";s:32:"88a39f68ddccc45fef161886ec01d9be";s:14:"couleur_claire";s:6:"C4C4DD";s:14:"couleur_foncee";s:6:"8F8FBD";s:4:"lang";s:2:"en";s:4:"date";s:19:"2019-09-16 08:16:22";s:12:"date_default";b:1;s:10:"date_redac";s:19:"2019-09-16 08:16:22";s:18:"date_redac_default";b:1;s:6:"claire";s:7:"#C4C4DD";s:6:"foncee";s:7:"#8F8FBD";s:4:"left";s:4:"left";s:5:"right";s:5:"right";s:3:"rtl";s:0:"";s:3:"dir";s:3:"ltr";s:9:"font-size";s:8:"0.8125em";s:11:"line-height";s:7:"1.385em";s:13:"margin-bottom";s:7:"1.385em";s:11:"text-indent";s:4:"50px";s:11:"font-family";s:28:"Helvetica, Arial, sans-serif";s:16:"background-color";s:7:"#F8F7F3";s:5:"color";s:7:"#000000";}s:12:"lastmodified";i:1568636182;s:2:"gz";b:0;s:3:"sig";i:957998404;}}

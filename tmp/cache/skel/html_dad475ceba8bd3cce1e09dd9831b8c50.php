@@ -3,12 +3,12 @@
 /*
  * Squelette : ../prive/squelettes/inclure/favicon-head.html
  * Date :      Mon, 08 Apr 2019 18:48:14 GMT
- * Compile :   Mon, 16 Sep 2019 10:25:24 GMT
+ * Compile :   Mon, 16 Sep 2019 12:16:22 GMT
  * Boucles :   
  */ 
 //
 // Fonction principale du squelette ../prive/squelettes/inclure/favicon-head.html
-// Temps de compilation total: 0.451 ms
+// Temps de compilation total: 0.560 ms
 //
 
 function html_dad475ceba8bd3cce1e09dd9831b8c50($Cache, $Pile, $doublons = array(), $Numrows = array(), $SP = 0) {

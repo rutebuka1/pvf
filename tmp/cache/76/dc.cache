@@ -1,9 +1,0 @@
-a:2:{s:9:"nom_cache";s:38:"76dc8070d5c249f50ad7d3c6c586210a.cache";s:6:"valeur";a:12:{s:9:"squelette";s:37:"html_e33636cc23758c210fbbc06a03090832";s:6:"source";s:37:"../prive/squelettes/inclure/pied.html";s:11:"process_ins";s:4:"html";s:11:"invalideurs";a:2:{s:5:"cache";s:38:"113bf1e78fb7c1ea52acbd9381f8124b.cache";s:7:"session";s:8:"7896815f";}s:7:"entetes";a:1:{s:12:"X-Spip-Cache";s:5:"86400";}s:5:"duree";i:86400;s:5:"texte";s:600:"<div id='copyright'>
-	
-	<b>SPIP 3.2.4 [<a href='http://core.spip.net/projects/spip/repository/revisions/24285' target="_blank" rel="noopener noreferrer">24285</a>]</b>  is free software distributed <a href='http://localhost/pvf/ecrire/?exec=aide&amp;aide=licence&amp;var_lang=en' class="aide popin">under the GPL license</a>.<br />+ safety screen 1.3.11
-	
-	<p>For more visit <a href="https://www.spip.net/en">https://www.spip.net/en</a>.</p>
-</div>
-<noscript>
-<div style='display:none;'><img src='http://localhost/pvf/ecrire/?exec=test_ajax&amp;js=-1' width='1' height='1' alt='' /></div></noscript>
-";s:5:"notes";s:0:"";s:8:"contexte";a:5:{s:4:"lang";s:2:"en";s:4:"date";s:19:"2019-09-16 06:26:19";s:12:"date_default";b:1;s:10:"date_redac";s:19:"2019-09-16 06:26:19";s:18:"date_redac_default";b:1;}s:12:"lastmodified";i:1568629579;s:2:"gz";b:0;s:3:"sig";i:2748707078;}}

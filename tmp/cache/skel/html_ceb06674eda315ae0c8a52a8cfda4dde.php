@@ -3,12 +3,12 @@
 /*
  * Squelette : ../prive/formulaires/editer_logo.html
  * Date :      Mon, 08 Apr 2019 18:48:14 GMT
- * Compile :   Mon, 16 Sep 2019 10:26:30 GMT
+ * Compile :   Mon, 16 Sep 2019 12:17:12 GMT
  * Boucles :   
  */ 
 //
 // Fonction principale du squelette ../prive/formulaires/editer_logo.html
-// Temps de compilation total: 2.267 ms
+// Temps de compilation total: 0.867 ms
 //
 
 function html_ceb06674eda315ae0c8a52a8cfda4dde($Cache, $Pile, $doublons = array(), $Numrows = array(), $SP = 0) {

@@ -3,12 +3,12 @@
 /*
  * Squelette : ../prive/themes/spip/typo.css.html
  * Date :      Mon, 08 Apr 2019 18:48:14 GMT
- * Compile :   Mon, 16 Sep 2019 10:25:24 GMT
+ * Compile :   Mon, 16 Sep 2019 12:16:22 GMT
  * Boucles :   
  */ 
 //
 // Fonction principale du squelette ../prive/themes/spip/typo.css.html
-// Temps de compilation total: 1.041 ms
+// Temps de compilation total: 2.484 ms
 //
 
 function html_9106ad5f10151beff44bf945fd7c969b($Cache, $Pile, $doublons = array(), $Numrows = array(), $SP = 0) {

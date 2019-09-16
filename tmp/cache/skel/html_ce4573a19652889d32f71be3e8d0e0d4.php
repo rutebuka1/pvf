@@ -3,12 +3,12 @@
 /*
  * Squelette : ../prive/themes/spip/theme.css.html
  * Date :      Mon, 08 Apr 2019 18:48:14 GMT
- * Compile :   Mon, 16 Sep 2019 10:25:25 GMT
+ * Compile :   Mon, 16 Sep 2019 12:16:22 GMT
  * Boucles :   
  */ 
 //
 // Fonction principale du squelette ../prive/themes/spip/theme.css.html
-// Temps de compilation total: 1.009 ms
+// Temps de compilation total: 0.670 ms
 //
 
 function html_ce4573a19652889d32f71be3e8d0e0d4($Cache, $Pile, $doublons = array(), $Numrows = array(), $SP = 0) {
