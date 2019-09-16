@@ -1,4 +1,4 @@
-a:2:{s:9:"nom_cache";s:38:"e17b2e0d6f184bd9e9b7a65d70e267ed.cache";s:6:"valeur";a:12:{s:9:"squelette";s:37:"html_80f428b735eb958cf1c478827c0b168a";s:6:"source";s:22:"squelettes/header.html";s:11:"process_ins";s:4:"html";s:11:"invalideurs";a:1:{s:5:"cache";s:38:"e17b2e0d6f184bd9e9b7a65d70e267ed.cache";}s:7:"entetes";a:1:{s:12:"X-Spip-Cache";i:86400;}s:5:"duree";i:0;s:5:"texte";s:3471:"<!DOCTYPE html>
+a:2:{s:9:"nom_cache";s:38:"e17b2e0d6f184bd9e9b7a65d70e267ed.cache";s:6:"valeur";a:12:{s:9:"squelette";s:37:"html_80f428b735eb958cf1c478827c0b168a";s:6:"source";s:22:"squelettes/header.html";s:11:"process_ins";s:4:"html";s:11:"invalideurs";a:1:{s:5:"cache";s:38:"e17b2e0d6f184bd9e9b7a65d70e267ed.cache";}s:7:"entetes";a:1:{s:12:"X-Spip-Cache";i:86400;}s:5:"duree";i:0;s:5:"texte";s:3659:"<!DOCTYPE html>
 <html lang="zxx" class="no-js">
 	<head>
 		<!-- Mobile Specific Meta -->
@@ -69,13 +69,18 @@ a:2:{s:9:"nom_cache";s:38:"e17b2e0d6f184bd9e9b7a65d70e267ed.cache";s:6:"valeur";
 				<div class="row align-items-center justify-content-between">
 					<nav id="nav-menu-container">
 						<ul class="nav-menu">
-							<li class="menu-active"><a href="http://localhost/pvf">Home</a></li>
-							<li><a href="?page=imyidagaduro">Sport</a></li>
-							<li><a href="#">About</a></li>
-							<li><a href="#">Education</a></li>
-							<li><a href="#">Culture</a></li>
-							<li><a href="#">Politics</a></li>
-						<li><a href="#">Contact</a></li>
+							<li class="menu-active"><a href="http://localhost/pvf">Ahabanza</a></li>
+							<li><a href="?page=imyidagaduro">Imyidagaduro</a></li>
+							<li><a href="#">Imikino</a></li>
+							<li><a href="#">Ikoranabuhanga</a></li>
+							<li><a href="#">Ubukungu</a></li>
+							<li><a href="#">Ubuzima</a></li>
+							<li><a href="#">Urukundo</a></li>
+							<li><a href="#">Iyobokamana</a></li>
+							<li><a href="#">Cinema</a></li>
+							<li><a href="#">Uburezi</a></li>
+							<li><a href="#">Umuco</a></li>
+						
 					</ul>
 					</nav><!-- #nav-menu-container -->
 				<!-- 	<div class="navbar-right">
@@ -93,4 +98,4 @@ a:2:{s:9:"nom_cache";s:38:"e17b2e0d6f184bd9e9b7a65d70e267ed.cache";s:6:"valeur";
 			</div>
 		</header>
     </html>
-";s:5:"notes";s:0:"";s:8:"contexte";a:5:{s:4:"lang";s:2:"fr";s:4:"date";s:19:"2019-09-15 10:10:06";s:12:"date_default";b:1;s:10:"date_redac";s:19:"2019-09-15 10:10:06";s:18:"date_redac_default";b:1;}s:12:"lastmodified";i:1568556606;s:2:"gz";b:0;s:3:"sig";i:3320356766;}}
+";s:5:"notes";s:0:"";s:8:"contexte";a:5:{s:4:"lang";s:2:"fr";s:4:"date";s:19:"2019-09-16 06:24:59";s:12:"date_default";b:1;s:10:"date_redac";s:19:"2019-09-16 06:24:59";s:18:"date_redac_default";b:1;}s:12:"lastmodified";i:1568629499;s:2:"gz";b:0;s:3:"sig";i:3967855498;}}

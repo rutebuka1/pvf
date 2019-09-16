@@ -2,13 +2,13 @@
 
 /*
  * Squelette : squelettes/header.html
- * Date :      Sun, 01 Sep 2019 05:52:19 GMT
- * Compile :   Sun, 15 Sep 2019 14:10:06 GMT
+ * Date :      Sun, 15 Sep 2019 16:36:25 GMT
+ * Compile :   Mon, 16 Sep 2019 10:24:59 GMT
  * Boucles :   
  */ 
 //
 // Fonction principale du squelette squelettes/header.html
-// Temps de compilation total: 0.217 ms
+// Temps de compilation total: 0.832 ms
 //
 
 function html_80f428b735eb958cf1c478827c0b168a($Cache, $Pile, $doublons = array(), $Numrows = array(), $SP = 0) {
@@ -91,13 +91,18 @@ function html_80f428b735eb958cf1c478827c0b168a($Cache, $Pile, $doublons = array(
 						<ul class="nav-menu">
 							<li class="menu-active"><a href="' .
 spip_htmlspecialchars(sinon($GLOBALS['meta']['adresse_site'],'.')) .
-'">Home</a></li>
-							<li><a href="?page=imyidagaduro">Sport</a></li>
-							<li><a href="#">About</a></li>
-							<li><a href="#">Education</a></li>
-							<li><a href="#">Culture</a></li>
-							<li><a href="#">Politics</a></li>
-						<li><a href="#">Contact</a></li>
+'">Ahabanza</a></li>
+							<li><a href="?page=imyidagaduro">Imyidagaduro</a></li>
+							<li><a href="#">Imikino</a></li>
+							<li><a href="#">Ikoranabuhanga</a></li>
+							<li><a href="#">Ubukungu</a></li>
+							<li><a href="#">Ubuzima</a></li>
+							<li><a href="#">Urukundo</a></li>
+							<li><a href="#">Iyobokamana</a></li>
+							<li><a href="#">Cinema</a></li>
+							<li><a href="#">Uburezi</a></li>
+							<li><a href="#">Umuco</a></li>
+						
 					</ul>
 					</nav><!-- #nav-menu-container -->
 				<!-- 	<div class="navbar-right">
