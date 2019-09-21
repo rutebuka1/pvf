@@ -1,4 +1,5 @@
-<INCLURE(header)>
+a:2:{s:9:"nom_cache";s:38:"93e49a94e613952d993f90445169caad.cache";s:6:"valeur";a:12:{s:9:"squelette";s:37:"html_60a2c7c627b1bbdbb23da7eb5591ffdf";s:6:"source";s:26:"squelettes/rubrique=2.html";s:11:"process_ins";s:3:"php";s:11:"invalideurs";a:1:{s:5:"cache";s:38:"93e49a94e613952d993f90445169caad.cache";}s:7:"entetes";a:1:{s:12:"X-Spip-Cache";i:86400;}s:5:"duree";i:0;s:5:"texte";s:9815:"<?php echo recuperer_fond( 'header', array('lang' => 'fr'), array("compil"=>array('squelettes/rubrique=2.html','html_60a2c7c627b1bbdbb23da7eb5591ffdf','',1,$GLOBALS['spip_lang'])), _request("connect"));
+?>
 
 		<div class="site-main-container">
 
@@ -12,17 +13,17 @@
 								<h4 class="cat-title">Latest News</h4>
 
 								<div class="single-latest-post row align-items-center">
-                                        <BOUCLE_imy(ARTICLES){id_rubrique=9}>
+                                        
 									<div class="col-lg-5 post-left">
 										<div class="feature-img relative">
 											<div class="overlay overlay-bg"></div>
-											<img class="img-fluid" src="[(#LOGO_ARTICLE|extraire_attribut{src})]" alt="">
+											<img class="img-fluid" src="IMG/arton2.jpg?1569041997" alt="">
 										</div>
 
 									</div>
 									<div class="col-lg-7 post-right">
-										<a href="?page=news&id_article=#ID_ARTICLE">
-											<h4>#TITRE</h4>
+										<a href="?page=news&id_article=2">
+											<h4>Basketball&nbsp;: Patriots BBC yafashe REG banganya imikino ,igikombe gisubirayo bwa kabiri muri Kigali Arena yuzuye neza</h4>
 										</a>
 										<ul class="meta">
 											<li><a href="#"><span class="lnr lnr-user"></span>Mark wiens</a></li>
@@ -30,10 +31,10 @@
 											<li><a href="#"><span class="lnr lnr-bubble"></span>06 Comments</a></li>
 										</ul>
 										<p>
-                                                [(#TEXTE|couper{190,...})]
+                                                Ikipe ya Patriots BBC yatsinze REG BBC amanota 78-60 mu mukino w’umunsi wa gatandatu wa Playoffs bituma amakipe yombi anganya intsinzi 3-3 , igikombe gisubira mu bubiko mu gihe Kigali...
 										</p>
                                     </div>
-                                    </BOUCLE_imy>
+                                    
 								</div>
 								<div class="load-more">
 									<a href="#" class="primary-btn">Load More Posts</a>
@@ -239,4 +240,6 @@
 			<!-- End latest-post Area -->
 		</div>
 
-<INCLURE(footer)>
+<?php echo recuperer_fond( 'footer', array('lang' => 'fr'), array("compil"=>array('squelettes/rubrique=2.html','html_60a2c7c627b1bbdbb23da7eb5591ffdf','',242,$GLOBALS['spip_lang'])), _request("connect"));
+?>
+";s:5:"notes";s:0:"";s:8:"contexte";a:6:{s:9:"rubrique2";s:0:"";s:11:"id_rubrique";s:1:"2";s:4:"date";s:19:"2019-09-21 03:38:44";s:12:"date_default";b:1;s:10:"date_redac";s:19:"2019-09-21 03:38:44";s:18:"date_redac_default";b:1;}s:12:"lastmodified";i:1569051524;s:2:"gz";b:0;s:3:"sig";i:1273101839;}}

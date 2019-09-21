@@ -1,4 +1,112 @@
-<INCLURE(header)>
+<?php
+
+/*
+ * Squelette : squelettes/rubrique=2.html
+ * Date :      Sat, 21 Sep 2019 07:35:44 GMT
+ * Compile :   Sat, 21 Sep 2019 07:38:44 GMT
+ * Boucles :   _imy
+ */ 
+
+function BOUCLE_imyhtml_60a2c7c627b1bbdbb23da7eb5591ffdf(&$Cache, &$Pile, &$doublons, &$Numrows, $SP) {
+
+	static $command = array();
+	static $connect;
+	$command['connect'] = $connect = '';
+	if (!isset($command['table'])) {
+		$command['table'] = 'articles';
+		$command['id'] = '_imy';
+		$command['from'] = array('articles' => 'spip_articles');
+		$command['type'] = array();
+		$command['groupby'] = array();
+		$command['select'] = array("articles.id_article",
+		"articles.titre",
+		"articles.texte",
+		"articles.lang");
+		$command['orderby'] = array();
+		$command['where'] = 
+			array(
+quete_condition_statut('articles.statut','publie,prop,prepa/auteur','publie',''), 
+quete_condition_postdates('articles.date',''), 
+			array('=', 'articles.id_rubrique', "2"));
+		$command['join'] = array();
+		$command['limit'] = '';
+		$command['having'] = 
+			array();
+	}
+	if (defined("_BOUCLE_PROFILER")) $timer = time()+(float)microtime();
+	$t0 = "";
+	// REQUETE
+	$iter = IterFactory::create(
+		"SQL",
+		$command,
+		array('squelettes/rubrique=2.html','html_60a2c7c627b1bbdbb23da7eb5591ffdf','_imy',15,$GLOBALS['spip_lang'])
+	);
+	if (!$iter->err()) {
+	lang_select($GLOBALS['spip_lang']);
+	$SP++;
+	// RESULTATS
+	while ($Pile[$SP]=$iter->fetch()) {
+
+		lang_select_public($Pile[$SP]['lang'], '', $Pile[$SP]['titre']);
+		$t0 .= (
+'
+									<div class="col-lg-5 post-left">
+										<div class="feature-img relative">
+											<div class="overlay overlay-bg"></div>
+											<img class="img-fluid" src="' .
+extraire_attribut(
+((!is_array($l = quete_logo('id_article', 'ON', $Pile[$SP]['id_article'],'', 0))) ? '':
+ ("<img class=\"spip_logo spip_logos\" alt=\"\" src=\"$l[0]\"" . $l[2] .  ($l[1] ? " onmouseover=\"this.src='$l[1]'\" onmouseout=\"this.src='$l[0]'\"" : "") . ' />')),'src') .
+'" alt="">
+										</div>
+
+									</div>
+									<div class="col-lg-7 post-right">
+										<a href="?page=news&id_article=' .
+$Pile[$SP]['id_article'] .
+'">
+											<h4>' .
+interdire_scripts(supprimer_numero(typo($Pile[$SP]['titre']), "TYPO", $connect, $Pile[0])) .
+'</h4>
+										</a>
+										<ul class="meta">
+											<li><a href="#"><span class="lnr lnr-user"></span>Mark wiens</a></li>
+											<li><a href="#"><span class="lnr lnr-calendar-full"></span>03 April, 2018</a></li>
+											<li><a href="#"><span class="lnr lnr-bubble"></span>06 Comments</a></li>
+										</ul>
+										<p>
+                                                ' .
+interdire_scripts(couper(propre($Pile[$SP]['texte'], $connect, $Pile[0]),'190','...')) .
+'
+										</p>
+                                    </div>
+                                    ');
+		lang_select();
+	}
+	lang_select();
+	$iter->free();
+	}
+	if (defined("_BOUCLE_PROFILER")
+	AND 1000*($timer = (time()+(float)microtime())-$timer) > _BOUCLE_PROFILER)
+		spip_log(intval(1000*$timer)."ms BOUCLE_imy @ squelettes/rubrique=2.html","profiler"._LOG_AVERTISSEMENT);
+	return $t0;
+}
+
+//
+// Fonction principale du squelette squelettes/rubrique=2.html
+// Temps de compilation total: 0.471 ms
+//
+
+function html_60a2c7c627b1bbdbb23da7eb5591ffdf($Cache, $Pile, $doublons = array(), $Numrows = array(), $SP = 0) {
+
+	if (isset($Pile[0]["doublons"]) AND is_array($Pile[0]["doublons"]))
+		$doublons = nettoyer_env_doublons($Pile[0]["doublons"]);
+
+	$connect = '';
+	$page = (
+
+'<'.'?php echo recuperer_fond( ' . argumenter_squelette("header") . ', array(\'lang\' => ' . argumenter_squelette($GLOBALS["spip_lang"]) . '), array("compil"=>array(\'squelettes/rubrique=2.html\',\'html_60a2c7c627b1bbdbb23da7eb5591ffdf\',\'\',1,$GLOBALS[\'spip_lang\'])), _request("connect"));
+?'.'>
 
 		<div class="site-main-container">
 
@@ -12,28 +120,9 @@
 								<h4 class="cat-title">Latest News</h4>
 
 								<div class="single-latest-post row align-items-center">
-                                        <BOUCLE_imy(ARTICLES){id_rubrique=9}>
-									<div class="col-lg-5 post-left">
-										<div class="feature-img relative">
-											<div class="overlay overlay-bg"></div>
-											<img class="img-fluid" src="[(#LOGO_ARTICLE|extraire_attribut{src})]" alt="">
-										</div>
-
-									</div>
-									<div class="col-lg-7 post-right">
-										<a href="?page=news&id_article=#ID_ARTICLE">
-											<h4>#TITRE</h4>
-										</a>
-										<ul class="meta">
-											<li><a href="#"><span class="lnr lnr-user"></span>Mark wiens</a></li>
-											<li><a href="#"><span class="lnr lnr-calendar-full"></span>03 April, 2018</a></li>
-											<li><a href="#"><span class="lnr lnr-bubble"></span>06 Comments</a></li>
-										</ul>
-										<p>
-                                                [(#TEXTE|couper{190,...})]
-										</p>
-                                    </div>
-                                    </BOUCLE_imy>
+                                        ' .
+BOUCLE_imyhtml_60a2c7c627b1bbdbb23da7eb5591ffdf($Cache, $Pile, $doublons, $Numrows, $SP) .
+'
 								</div>
 								<div class="load-more">
 									<a href="#" class="primary-btn">Load More Posts</a>
@@ -126,7 +215,7 @@
 									<div class="form-group d-flex flex-row">
 										<div class="col-autos">
 											<div class="input-group">
-												<input class="form-control" placeholder="Email Address" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Email Address'" type="text">
+												<input class="form-control" placeholder="Email Address" onfocus="this.placeholder = \'\'" onblur="this.placeholder = \'Email Address\'" type="text">
 											</div>
 										</div>
 										<a href="#" class="bbtns">Subcribe</a>
@@ -239,4 +328,12 @@
 			<!-- End latest-post Area -->
 		</div>
 
-<INCLURE(footer)>
+' .
+
+'<'.'?php echo recuperer_fond( ' . argumenter_squelette("footer") . ', array(\'lang\' => ' . argumenter_squelette($GLOBALS["spip_lang"]) . '), array("compil"=>array(\'squelettes/rubrique=2.html\',\'html_60a2c7c627b1bbdbb23da7eb5591ffdf\',\'\',242,$GLOBALS[\'spip_lang\'])), _request("connect"));
+?'.'>
+');
+
+	return analyse_resultat_skel('html_60a2c7c627b1bbdbb23da7eb5591ffdf', $Cache, $page, 'squelettes/rubrique=2.html');
+}
+?>

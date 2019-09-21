@@ -3,12 +3,12 @@
 /*
  * Squelette : squelettes/header.html
  * Date :      Mon, 16 Sep 2019 11:53:55 GMT
- * Compile :   Mon, 16 Sep 2019 12:14:11 GMT
+ * Compile :   Sat, 21 Sep 2019 07:38:38 GMT
  * Boucles :   
  */ 
 //
 // Fonction principale du squelette squelettes/header.html
-// Temps de compilation total: 0.275 ms
+// Temps de compilation total: 0.531 ms
 //
 
 function html_80f428b735eb958cf1c478827c0b168a($Cache, $Pile, $doublons = array(), $Numrows = array(), $SP = 0) {

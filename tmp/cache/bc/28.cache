@@ -1,8 +1,8 @@
-a:2:{s:9:"nom_cache";s:38:"bc288dae4a8a1f8ad16e1c6ceef7d3de.cache";s:6:"valeur";a:12:{s:9:"squelette";s:37:"html_b654dc611e22c57b2185a44d1c5b8e20";s:6:"source";s:26:"squelettes/rubrique=1.html";s:11:"process_ins";s:3:"php";s:11:"invalideurs";a:1:{s:5:"cache";s:38:"bc288dae4a8a1f8ad16e1c6ceef7d3de.cache";}s:7:"entetes";a:1:{s:12:"X-Spip-Cache";i:86400;}s:5:"duree";i:0;s:5:"texte";s:10638:"<?php echo recuperer_fond( 'header', array('lang' => 'fr'), array("compil"=>array('squelettes/rubrique=1.html','html_b654dc611e22c57b2185a44d1c5b8e20','',1,$GLOBALS['spip_lang'])), _request("connect"));
+a:2:{s:9:"nom_cache";s:38:"bc288dae4a8a1f8ad16e1c6ceef7d3de.cache";s:6:"valeur";a:12:{s:9:"squelette";s:37:"html_b654dc611e22c57b2185a44d1c5b8e20";s:6:"source";s:26:"squelettes/rubrique=1.html";s:11:"process_ins";s:3:"php";s:11:"invalideurs";a:1:{s:5:"cache";s:38:"bc288dae4a8a1f8ad16e1c6ceef7d3de.cache";}s:7:"entetes";a:1:{s:12:"X-Spip-Cache";i:86400;}s:5:"duree";i:0;s:5:"texte";s:7377:"<?php echo recuperer_fond( 'header', array('lang' => 'fr'), array("compil"=>array('squelettes/rubrique=1.html','html_b654dc611e22c57b2185a44d1c5b8e20','',1,$GLOBALS['spip_lang'])), _request("connect"));
 ?>
-		
+
 		<div class="site-main-container">
-		
+
 			<!-- Start latest-post Area -->
 			<section class="latest-post-area pb-120">
 				<div class="container no-padding">
@@ -11,24 +11,19 @@ a:2:{s:9:"nom_cache";s:38:"bc288dae4a8a1f8ad16e1c6ceef7d3de.cache";s:6:"valeur";
 							<!-- Start latest-post Area -->
 							<div class="latest-post-wrap">
 								<h4 class="cat-title">Latest News</h4>
-							
-						
-						
-						
+
 								<div class="single-latest-post row align-items-center">
+                                        
 									<div class="col-lg-5 post-left">
 										<div class="feature-img relative">
 											<div class="overlay overlay-bg"></div>
-											<img class="img-fluid" src="img/r2.jpg" alt="">
+											<img class="img-fluid" src="IMG/arton1.jpg?1568636276" alt="">
 										</div>
-										<ul class="tags">
-											<li><a href="#">Travel</a></li>
-										</ul>
+
 									</div>
 									<div class="col-lg-7 post-right">
-										<a href="image-post.html">
-											<h4>A Discount Toner Cartridge Is
-											Better Than Ever.</h4>
+										<a href="?page=news&id_article=1">
+											<h4>King James yishimiwe bikomeye mu gitaramo yakoreye Bauhaus Club Nyamirambo-AMAFOTO</h4>
 										</a>
 										<ul class="meta">
 											<li><a href="#"><span class="lnr lnr-user"></span>Mark wiens</a></li>
@@ -36,55 +31,29 @@ a:2:{s:9:"nom_cache";s:38:"bc288dae4a8a1f8ad16e1c6ceef7d3de.cache";s:6:"valeur";
 											<li><a href="#"><span class="lnr lnr-bubble"></span>06 Comments</a></li>
 										</ul>
 										<p>
-											Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt.
+                                                Uyu muhanzi yaririmbiye Bauhaus Club Nyamirmabo mu ijoro ryo ku wa Gatanu rishyira ku wa Gatandatu. Ni igitaramo cyahuriranye no kumurika ku mugaragaro indirimbo nshya yise “Yabigize...
 										</p>
-									</div>
-								</div>
-								<div class="single-latest-post row align-items-center">
-									<div class="col-lg-5 post-left">
-										<div class="feature-img relative">
-											<div class="overlay overlay-bg"></div>
-											<img class="img-fluid" src="img/r3.jpg" alt="">
-										</div>
-										<ul class="tags">
-											<li><a href="#">Fashion</a></li>
-										</ul>
-									</div>
-									<div class="col-lg-7 post-right">
-										<a href="image-post.html">
-											<h4>A Discount Toner Cartridge Is
-											Better Than Ever.</h4>
-										</a>
-										<ul class="meta">
-											<li><a href="#"><span class="lnr lnr-user"></span>Mark wiens</a></li>
-											<li><a href="#"><span class="lnr lnr-calendar-full"></span>03 April, 2018</a></li>
-											<li><a href="#"><span class="lnr lnr-bubble"></span>06 Comments</a></li>
-										</ul>
-										<p>
-											Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt.
-										</p>
-									</div>
+                                    </div>
+                                    
 								</div>
 								<div class="load-more">
 									<a href="#" class="primary-btn">Load More Posts</a>
 								</div>
-								
+
 							</div>
 							<!-- End latest-post Area -->
 						</div>
 						<div class="col-lg-4">
 							<div class="sidebars-area">
 								<div class="single-sidebar-widget editors-pick-widget">
-									<h6 class="title">Editor’s Pick</h6>
+									<h6 class="title">Inkuru zamamaza</h6>
 									<div class="editors-pick-post">
 										<div class="feature-img-wrap relative">
 											<div class="feature-img relative">
 												<div class="overlay overlay-bg"></div>
 												<img class="img-fluid" src="img/e1.jpg" alt="">
 											</div>
-											<ul class="tags">
-												<li><a href="#">Travel</a></li>
-											</ul>
+
 										</div>
 										<div class="details">
 											<a href="image-post.html">
@@ -146,80 +115,19 @@ a:2:{s:9:"nom_cache";s:38:"bc288dae4a8a1f8ad16e1c6ceef7d3de.cache";s:6:"valeur";
 								<div class="single-sidebar-widget ads-widget">
 									<img class="img-fluid" src="img/sidebar-ads.jpg" alt="">
 								</div>
-								<div class="single-sidebar-widget newsletter-widget">
-									<h6 class="title">Newsletter</h6>
-									<p>
-										Here, I focus on a range of items
-										andfeatures that we use in life without
-										giving them a second thought.
-									</p>
-									<div class="form-group d-flex flex-row">
-										<div class="col-autos">
-											<div class="input-group">
-												<input class="form-control" placeholder="Email Address" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Email Address'" type="text">
-											</div>
-										</div>
-										<a href="#" class="bbtns">Subcribe</a>
-									</div>
-									<p>
-										You can unsubscribe us at any time
-									</p>
-								</div>
+
 								<div class="single-sidebar-widget most-popular-widget">
 									<h6 class="title">Most Popular</h6>
-									<div class="single-list flex-row d-flex">
-										<div class="thumb">
-											<img src="img/m1.jpg" alt="">
-										</div>
-										<div class="details">
-											<a href="image-post.html">
-												<h6>Help Finding Information
-												Online is so easy</h6>
-											</a>
-											<ul class="meta">
-												<li><a href="#"><span class="lnr lnr-calendar-full"></span>03 April, 2018</a></li>
-												<li><a href="#"><span class="lnr lnr-bubble"></span>06</a></li>
-											</ul>
-										</div>
-									</div>
-									<div class="single-list flex-row d-flex">
-										<div class="thumb">
-											<img src="img/m2.jpg" alt="">
-										</div>
-										<div class="details">
-											<a href="image-post.html">
-												<h6>Compatible Inkjet Cartr
-												world famous</h6>
-											</a>
-											<ul class="meta">
-												<li><a href="#"><span class="lnr lnr-calendar-full"></span>03 April, 2018</a></li>
-												<li><a href="#"><span class="lnr lnr-bubble"></span>06</a></li>
-											</ul>
-										</div>
-									</div>
-									<div class="single-list flex-row d-flex">
-										<div class="thumb">
-											<img src="img/m3.jpg" alt="">
-										</div>
-										<div class="details">
-											<a href="image-post.html">
-												<h6>5 Tips For Offshore Soft
-												Development </h6>
-											</a>
-											<ul class="meta">
-												<li><a href="#"><span class="lnr lnr-calendar-full"></span>03 April, 2018</a></li>
-												<li><a href="#"><span class="lnr lnr-bubble"></span>06</a></li>
-											</ul>
-										</div>
-									</div>
+									
+
+
 									<div class="single-list flex-row d-flex">
 										<div class="thumb">
 											<img src="img/m4.jpg" alt="">
 										</div>
 										<div class="details">
-											<a href="image-post.html">
-												<h6>5 Tips For Offshore Soft
-												Development </h6>
+											<a href="?page=news&id_article=1">
+												<h6>King James yishimiwe bikomeye mu gitaramo yakoreye Bauhaus Club Nyamirambo-AMAFOTO</h6>
 											</a>
 											<ul class="meta">
 												<li><a href="#"><span class="lnr lnr-calendar-full"></span>03 April, 2018</a></li>
@@ -227,6 +135,7 @@ a:2:{s:9:"nom_cache";s:38:"bc288dae4a8a1f8ad16e1c6ceef7d3de.cache";s:6:"valeur";
 											</ul>
 										</div>
 									</div>
+									
 								</div>
 								<div class="single-sidebar-widget social-network-widget">
 									<h6 class="title">Social Networks</h6>
@@ -268,6 +177,7 @@ a:2:{s:9:"nom_cache";s:38:"bc288dae4a8a1f8ad16e1c6ceef7d3de.cache";s:6:"valeur";
 			</section>
 			<!-- End latest-post Area -->
 		</div>
-		
-<?php echo recuperer_fond( 'footer', array('lang' => 'fr'), array("compil"=>array('squelettes/rubrique=1.html','html_b654dc611e22c57b2185a44d1c5b8e20','',271,$GLOBALS['spip_lang'])), _request("connect"));
-?>";s:5:"notes";s:0:"";s:8:"contexte";a:6:{s:9:"rubrique1";s:0:"";s:11:"id_rubrique";s:1:"1";s:4:"date";s:19:"2019-09-16 08:15:25";s:12:"date_default";b:1;s:10:"date_redac";s:19:"2019-09-16 08:15:25";s:18:"date_redac_default";b:1;}s:12:"lastmodified";i:1568636125;s:2:"gz";b:0;s:3:"sig";i:2987770776;}}
+
+<?php echo recuperer_fond( 'footer', array('lang' => 'fr'), array("compil"=>array('squelettes/rubrique=1.html','html_b654dc611e22c57b2185a44d1c5b8e20','',180,$GLOBALS['spip_lang'])), _request("connect"));
+?>
+";s:5:"notes";s:0:"";s:8:"contexte";a:6:{s:9:"rubrique1";s:0:"";s:11:"id_rubrique";s:1:"1";s:4:"date";s:19:"2019-09-21 03:38:41";s:12:"date_default";b:1;s:10:"date_redac";s:19:"2019-09-21 03:38:41";s:18:"date_redac_default";b:1;}s:12:"lastmodified";i:1569051520;s:2:"gz";b:0;s:3:"sig";i:1917486994;}}
